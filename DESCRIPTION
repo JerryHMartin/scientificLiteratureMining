@@ -1,0 +1,13 @@
+Package: scientificLiteratureMining
+Type: Package
+Title: Mine Scientific Literature (Scientific Literature Mining)
+Version: 0.1.0
+Author: Jerry Martin
+Description: This package provides basic text mining capability for rapidly
+    mining scientific literature to find new information.
+    This package is intended for information only.
+License: GPL ver 2
+Encoding: UTF-8
+LazyData: true
+Imports: pdftools, NLP, tm, tidytext, reshape2, ggplot2
+RoxygenNote: 6.1.1
