@@ -22,3 +22,12 @@ After the library is installed it is to be loaded.
 ```r
     library(scientificLiteratureMining)
 ```
+
+### Basic Text Analysis
+
+Get a folder and fill it full of pdf documents containing the literature you want to analyze.
+
+Use the getCorpusFromPDFDirectory function to load all of the pdf files into a single corpus.
+
+Use the getWordFrequency function to see which words occur most often
+
