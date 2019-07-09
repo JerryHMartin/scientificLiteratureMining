@@ -11,6 +11,13 @@
 
 getCorpusFromPDFDirectory = function (literatureFileDirectory = ""){
 
+    library(pdftools)
+    library(NLP)
+    library(tm)
+    library(tidytext)
+    library(reshape2)
+    library(ggplot2)
+    
     if (literatureFileDirectory == ""){
         stop("A directory of pdf files is needed for this function")
     }
