@@ -18,6 +18,4 @@ a corpus object containing the text of the pdf files.
 }
 \examples{
 getCorpus(literatureFileDirectory)
-
-
 }
