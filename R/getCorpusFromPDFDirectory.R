@@ -1,4 +1,4 @@
-#' getCorpus
+#' getCorpusFromPDFDirectory
 #'
 #' This function accepts a folder of pdf journal articles and returns
 #' a corpus object containing the text of the pdf files.
